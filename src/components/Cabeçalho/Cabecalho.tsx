@@ -1,8 +1,13 @@
+import { CabecalhoContainer, Logo } from "./Cabecalho.style";
+
 const Cabecalho = () => {
     return (
-        <header>
-            Cabeçalho
-        </header>
+        <CabecalhoContainer>
+            <div>
+                <Logo src="/images/myteacher.png" />
+            </div>
+            <p>Encontre o professor perfeito!</p>
+        </CabecalhoContainer>
     )
 }
 
